@@ -11,9 +11,9 @@ var currentHour = moment().format("H");
 var timeEl = $(".time");
 
 //Event Listener To Save User Input to Local Storage
-$(".btn").click("click", function (Event) {
-  var textInput = formElement.val();
-  var time = timeEl.data("hour");
+$(".btn").click("click", function () {
+  var textInput = $(this).siblings(".description").val();
+  var time = $(this).parent().data("hour");
   localStorage.setItem(time, textInput);
 });
 
@@ -35,3 +35,7 @@ for (i = 0; i < timeEl.length; i++) {
     formElement[i].classList.remove("present");
   }
 }
+
+// console.log(textInput.textContent(localStorage.value));
+
+// $("input[class='.description']").append.value((localStorage.getItem("09")))
