@@ -15,4 +15,4 @@ A very simple calendar application that allows the user to save events for stand
 
 ## ScreenShot
 
-![](image/Day Planner.PNG)
+![](image/Day%20Planner.PNG)
