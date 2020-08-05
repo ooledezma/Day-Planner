@@ -36,6 +36,13 @@ for (i = 0; i < timeEl.length; i++) {
   }
 }
 
-// console.log(textInput.textContent(localStorage.value));
-
-// $("input[class='.description']").append.value((localStorage.getItem("09")))
+//Grabs what is in local storage and add its to the correct time row
+$("#9input").val(localStorage.getItem("09"));
+$("#10input").val(localStorage.getItem("10"));
+$("#11input").val(localStorage.getItem("11"));
+$("#12input").val(localStorage.getItem("12"));
+$("#13input").val(localStorage.getItem("13"));
+$("#14input").val(localStorage.getItem("14"));
+$("#15input").val(localStorage.getItem("15"));
+$("#16input").val(localStorage.getItem("16"));
+$("#17input").val(localStorage.getItem("17"));
